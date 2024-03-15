@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos del Barcelona</title>
+    <link rel="stylesheet" href="servicio.component.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <h1>Productos del Barcelona</h1>
+    </header>
+    <div class="redes">
+        <ul>
+            <li><a href="https://web.facebook.com/?locale=es_LA&_rdc=1&_rdr" target="_blank"><i
+                        class="fab fa-facebook"></i></a></li>
+            <li><a href="https://www.tiktok.com/" target="_blank"><i class="fab fa-tiktok"></i></a></li>
+            <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="/login">Inicio Session</a></li>
+        </ul>
+    </div>
+    <div class="menu-container">
+        <div class="logo">
+            <img src="assets/barca3.png" alt="logo">
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="/inicio">Inicio</a></li>
+                <li><a href="/servicio">Servicios</a></li>
+                <li><a href="/contacto">Contacto</a></li>
+            </ul>
+        </div>
+
+    </div>
+    <main>
+        <div class="product">
+            <img src="./assets/jersey.jpg" alt="Jersey del Barcelona">
+            <h2>Jersey del Barcelona</h2>
+            <p>¡Luce como un verdadero aficionado con el jersey oficial del Barcelona! Disponible en todas las tallas.
+            </p>
+            <p class="price">Precio: $50</p>
+            <button class="button3" (click)="jersey(50)">Comprar</button>
+        </div>
+        <div class="product">
+
+            <img src="./assets/balon.jpg" alt="Balón del Barcelona">
+            <h2>Balón del Barcelona</h2>
+            <p>¡Juega como tus jugadores favoritos con el balón oficial del Barcelona! Fabricado con materiales de
+                alta calidad.</p>
+            <p class="price">Precio: $20</p>
+            <button class="button3" (click)="balon(20)">Comprar</button>
+
+        </div>
+        <div class="product">
+            <img src="./assets/gorra.jpg" alt="Gorra del Barcelona">
+            <h2>Gorra del Barcelona</h2>
+            <p>¡Protege tu cabeza del sol mientras demuestras tu apoyo al Barcelona con esta gorra oficial!</p>
+            <p class="price">Precio: $15</p>
+            <button class="button3" (click)="gorra(15)">Comprar</button>
+        </div>
+    </main>
+    <button class="button2" (click)="mostrarTotal()">Mostrar Total</button>
+    <footer>
+        <div>
+            <h3>Información de Contacto</h3>
+            <p>Correo electrónico: julianNarvaez.com</p>
+            <p>Teléfono: 320-828-97-44</p>
+        </div>
+        <div>
+            <h3>Síguenos en las redes sociales</h3>
+            <ul>
+                <li><a href="https://web.facebook.com/fcbarcelona/?locale=es_LA&_rdc=1&_rdr"
+                        target="_blank">Facebook</a></li>
+                <li><a href="https://twitter.com/FCBarcelona_es?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                        target="_blank">Twitter</a></li>
+                <li><a href="https://www.instagram.com/fcbarcelona/" target="_blank">Instagram</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
