@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #000c52;
+}
+
+header {
+    background-color: #0a19ec;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.redes {
+    background-color: #000c52;
+    display: flex;
+    margin-right: auto;
+    height: 35%;
+}
+
+.redes ul {
+    list-style-type: none;
+    margin-left: 80%;
+    display: flex;
+}
+
+.redes ul li {
+    margin-right: 10px;
+}
+
+.redes ul li a {
+    font-size: 120%;
+    color: #ffffff;
+}
+
+.logo img {
+    width: 50px;
+    height: auto;
+    margin-left: 2%;
+}
+
+.menu-container {
+    margin-top: 1px;
+    display: flex;
+    align-items: center;
+    background-color: #0a19ec;
+    padding: 10px;
+    box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.menu {
+    display: flex;
+    margin-left: 35%;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu ul li {
+    margin: 0 15px;
+}
+
+.menu ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.menu ul li a:hover {
+    background-color: #0029af;
+}
+
+main {
+    color: white;
+    display: flex;
+    align-items: flex-start;
+}
+.conct {
+    margin-left: auto;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    flex: 1;
+}
+.conct h2 p {
+    line-height:  10px;
+}
+
+/*formulario*/
+.formulario {
+    margin-right: auto;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    flex: 1;
+    margin-left: 5%;
+}
+.form-container {
+    width: 400px;
+    background: linear-gradient(#cccaca, #9e9d9d) padding-box,
+        linear-gradient(100deg, transparent 35%, #2f00ff,#ff0000 ) border-box;
+    border: 2px solid transparent;
+    padding: 32px 24px;
+    font-size: 14px;
+    font-family: inherit;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    
+}
+
+.form-container button:active {
+    scale: 0.95;
+}
+
+.form-container .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-container .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.form-container .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #000000;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.form-container .form-group input {
+    width: 93%;
+    padding: 12px 16px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: inherit;
+    background-color: transparent;
+    border: 1px solid #414141;
+}
+
+.form-container .form-group textarea {
+    width: 93%;
+    padding: 12px 16px;
+    border-radius: 8px;
+    resize: none;
+    color: #fff;
+    height: 96px;
+    border: 1px solid #414141;
+    background-color: transparent;
+    font-family: inherit;
+}
+
+.form-container .form-group input::placeholder {
+    opacity: 0.5;
+}
+
+.form-container .form-group input:focus {
+    outline: none;
+    border-color: #1900ff;
+}
+
+.form-container .form-group textarea:focus {
+    outline: none;
+    border-color: #ff1c1c;
+}
+
+.form-container .form-submit-btn {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    align-self: flex-start;
+    font-family: inherit;
+    color: #ffffff;
+    font-weight: 600;
+    width: 40%;
+    background: #3a3a3a;
+    border: 1px solid #414141;
+    padding: 12px 16px;
+    font-size: inherit;
+    gap: 8px;
+    margin-top: 8px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.form-container .form-submit-btn:hover {
+    background: linear-gradient(to bottom right, red, blue);
+    border-color: #fff;
+}
+
+
+
+/*footer*/
+footer {
+    background-color: #0a19ec;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.5);
+}
+
+footer div {
+    flex: 1;
+}
+
+footer h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    margin: 5px 0;
+    color: white;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+footer ul li {
+    margin-right: 10px;
+}
+
+footer ul li:last-child {
+    margin-right: 0;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
